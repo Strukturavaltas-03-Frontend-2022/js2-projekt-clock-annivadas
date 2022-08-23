@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: Cyberverse ;
-    src: url(./cyberverseverse/cyberverse.ttf)
-    );
+    src: url(/OnlineWebFonts_COM_2dfcd24fcdeaaa2001f4a22ace25f507/Cyberverse/Cyberverse.ttf)
+    
 } 
 html {
-    background-color: rgb(203, 250, 203);
+    background-color: rgb(224, 253, 224);
     color: white;
 }
 
