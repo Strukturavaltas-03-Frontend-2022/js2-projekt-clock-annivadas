@@ -7,10 +7,10 @@
 - Használd a Cyberverse betűtípust
 - A betűméretet te választhatod meg*/
 
-/*  @font-face {
+  @font-face {
     font-family: Cyberverse;
-    src: url(Cyberverse.otf)
-}  */
+    src: url(/css/Cyberverse.otf)
+}  
 
 html {
     background-color: rgb(224, 253, 224);
@@ -33,7 +33,7 @@ html {
 
 .clock {
     color: white;
-    
+    font-family: Cyberverse;
     font-size: 5rem;
     border: 2px solid white;
     border-radius: 50px;

@@ -17,4 +17,3 @@
     document.querySelector(".clock").innerHTML = timeNow;
     setTimeout(exactTime, 1000);
 } 
- 
