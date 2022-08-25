@@ -7,13 +7,11 @@
 - Használd a Cyberverse betűtípust
 - A betűméretet te választhatod meg*/
 
-/*   const exactTime =() => {
-    const timeNow = nowDate().toLocalTimeString((hu) /1000);
-        document.querySelector('.clock') = timeNow;
-    
-} */  
-  const exactTime = () => {
-    const timeNow = new Date().toLocaleTimeString('hu');
-    document.querySelector(".clock").innerHTML = timeNow;
-    setTimeout(exactTime, 1000);
+const exactTime = () => {
+  const timeNow = new Date().toLocaleTimeString('hu');
+  document.querySelector(".clock").innerHTML = timeNow;
+  setTimeout(exactTime, 1000);
 } 
+
+exactTime()
+  

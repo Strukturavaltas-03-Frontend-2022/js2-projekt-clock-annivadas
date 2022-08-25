@@ -7,37 +7,51 @@
 - Használd a Cyberverse betűtípust
 - A betűméretet te választhatod meg*/
 
-  @font-face {
+ @font-face {
     font-family: Cyberverse;
     src: url(/css/Cyberverse.otf)
-}  
+} 
 
-html {
-    background-color: rgb(224, 253, 224);
-    text-align: center;
-    
+* {
+    margin: 0;
 }
 
-.container {
+body {
+    display: flex;
+}
+    
+.container { 
+    /* background-color: rgb(230, 230, 230); */
+    background-color: rgb(8, 8, 8);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top:0;
-    left: 0;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+}
     
-    
+.clock {
+    font-family: Cyberverse; 
+    font-size: 5rem;
+    color: rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(124, 252, 0);
+    box-shadow: 4px 8px 6px;
+    border-radius: 30px;
+    width: 500px;
+    height: 250px;
 }
 
-.clock {
-    color: white;
-    font-family: Cyberverse;
-    font-size: 5rem;
-    border: 2px solid white;
-    border-radius: 50px;
-    background-color: rgb(141, 135, 135);
-    width: 420px;
+
+
+
+
+
     
-}
+    
+
+    
+    
+
