@@ -18,6 +18,9 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
     
 .container { 
@@ -32,7 +35,7 @@ body {
     
 .clock {
     font-family: Cyberverse; 
-    font-size: 5rem;
+    font-size: 4rem;
     color: rgb(0, 255, 0);
     display: flex;
     justify-content: center;
@@ -40,8 +43,8 @@ body {
     border: 2px solid rgb(124, 252, 0);
     box-shadow: 4px 8px 6px;
     border-radius: 30px;
-    width: 500px;
-    height: 250px;
+    width: 385px;
+    height: 250px; 
 }
 
 
